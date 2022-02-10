@@ -18,9 +18,9 @@ public class UserDao {
 	//create constructor
 	public UserDao() {
 		// database configuration
-		String url = "jdbc:mysql://localhost:3306/restapi_using_jersey";
-		String username = "root";
-		String password = "root";
+		String url = "jdbc:mysql://localhost:3306/database-name";
+		String username = "database-username";
+		String password = "database-password";
 		try {
 			// load the driver
 			Class.forName("com.mysql.cj.jdbc.Driver");
