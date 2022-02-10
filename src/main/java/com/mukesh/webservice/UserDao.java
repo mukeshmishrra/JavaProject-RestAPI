@@ -49,7 +49,7 @@ public class UserDao {
 
 		} catch (Exception e) {
 			System.out.println(e);
-			System.out.println("getting all record wala error hun main");
+			
 		}
 		
 		return user;
@@ -69,7 +69,7 @@ public class UserDao {
 
 		} catch (Exception e) {
 			System.out.println(e);
-			System.out.println("saveData wale function ka error hun main");
+			
 		}		
 	}
 
@@ -88,7 +88,7 @@ public class UserDao {
 
 		} catch (Exception e) {
 			System.out.println(e);
-			System.out.println("getting all record wala error hun main");
+			
 		}
 
 		return u;
